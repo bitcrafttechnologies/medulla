@@ -123,7 +123,7 @@ python3 medulla_cli.py listen
 | `system/search` | Search the filesystem by name or content. | pending |
 | `system/fs/read` | Read a file from the local filesystem. | pending |
 | `system/fs/write` | Write content to a file. | pending |
-| `system/shell/exec` | Run a shell command and capture output. | ready |
+| `system/shell/exec` | Run a shell command and capture output. | pending |
 | `system/clipboard/read` | Read the current clipboard contents. | pending |
 | `system/clipboard/write` | Write text to the clipboard. | pending |
 | `system/notification/send` | Send a desktop notification. | pending |
