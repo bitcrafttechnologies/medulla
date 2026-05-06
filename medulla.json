@@ -1,0 +1,7 @@
+{
+  "socket_path":   "~/.echospace/medulla.sock",
+  "log_path":      "~/.echospace/medulla.log",
+  "log_max_days":  3,
+  "stream_output": "~/.echospace/telemetry.sp",
+  "skill_workers": 4
+}

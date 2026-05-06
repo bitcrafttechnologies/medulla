@@ -1,0 +1,15 @@
+[
+  {
+    "skill":      "system/battery",
+    "mode":       "interval",
+    "interval_s": 30,
+    "note":       "Emit battery status every 30 seconds"
+  },
+  {
+    "skill":      "system/battery",
+    "mode":       "event",
+    "interval_s": 60,
+    "trigger":    "lambda data: data['level'] < 20 and not data['charging']",
+    "note":       "Alert Echo when battery is critically low and not charging"
+  }
+]
